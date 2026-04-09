@@ -1,4 +1,5 @@
 public class test {
+//这是一个能实现猜数游戏的JAVA代码
     public static void main(String[] args) {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
