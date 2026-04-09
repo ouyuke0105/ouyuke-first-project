@@ -1,0 +1,27 @@
+public class test {
+    public static void main(String[] args) {
+        Random random = new Random();
+        Scanner scanner = new Scanner(System.in);
+
+        // 生成 1~100 的随机数
+        int secret = random.nextInt(100) + 1;
+
+        System.out.println("===== 猜数字游戏 =====");
+        System.out.println("我已经想好了一个 1~100 的数字");
+
+        while (true) {
+            System.out.print("请输入你猜的数字：");
+            int guess = scanner.nextInt();
+
+            if (guess > secret) {
+                System.out.println("太大了，再小一点");
+            } else if (guess < secret) {
+                System.out.println("太小了，再大一点");
+            } else {
+                System.out.println("恭喜你，猜对了！答案就是 " + secret);
+                break;
+            }
+        }
+        scanner.close();
+    }
+}
