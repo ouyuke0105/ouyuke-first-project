@@ -2,6 +2,7 @@
 欧俞可的第一个GitHub测试项目
 
 # CookieShop 蛋糕商城项目
+tdm做出了一写修改代码
 
 ## 项目介绍
 CookieShop 是一个基于Java Web技术开发的在线蛋糕商城系统，采用JSP + Servlet架构实现，包含用户注册登录、商品浏览、订单管理、购物车等完整电商功能，是一个初次学习Java Web的大学生开发的实战项目。
